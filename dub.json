@@ -1,0 +1,22 @@
+{
+	"name": "brainfuck-d",
+	"authors": [
+		"rekz"
+	],
+	"description": "A Brainfuck interpreter.",
+	"copyright": "Copyright © 2017, rekz",
+	"license": "BSL-1.0",
+	"configurations": [
+		{
+			"name": "application",
+			"targetType": "executable"
+		},
+		{
+			"name": "library",
+			"targetType": "library",
+			"excludedSourceFiles": [
+				"app.d"
+			]
+		}
+	]
+}
